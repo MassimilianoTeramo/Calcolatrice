@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+table {
+    width: 440px;
+    font-size: 35px;
+    height: 500px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#result {
+    text-align: right;
+    padding-right: 15px;
+    background-color: rgb(192, 187, 187);
+}
+.number {
+    background-color: rgb(192, 187, 187);
+}
+.number:hover {
+    background-color: rgba(214, 192, 192, 0.766);
+    cursor: pointer;
+}
+.green {
+    background-color: rgb(8, 205, 8);
+}
+.green:hover {
+    background-color: rgb(3, 137, 3);
+    cursor: pointer;
+}
+
